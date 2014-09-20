@@ -47,8 +47,32 @@ else
   NeoBundle 'tomtom/tcomment_vim'
   NeoBundle 'embear/vim-localvimrc'
   NeoBundle 'bling/vim-airline'
-  
+
   NeoBundle 'git://git.code.sf.net/p/vim-latex/vim-latex'
+
+  NeoBundle 'mtth/cursorcross.vim.git'
+  NeoBundleLazy 'blueyed/delimitMate.git', {
+        \ 'autoload': { 'insert': 1 }}
+  NeoBundle 'blueyed/file-line.git'
+  NeoBundle 'blueyed/nerdtree.git', {
+        \ 'augroup' : 'NERDTreeHijackNetrw' }
+  NeoBundle 'kana/vim-operator-user.git'
+
+  NeoBundle 'kana/vim-textobj-user.git'
+  NeoBundle 'kana/vim-textobj-function.git'
+  NeoBundle 'kana/vim-textobj-indent.git'
+  NeoBundle 'mattn/vim-textobj-url'
+
+  NeoBundle 'dbakker/vim-projectroot.git'
+  NeoBundle 'tomtom/quickfixsigns_vim.git'
+  NeoBundle 'chrisbra/SudoEdit.vim.git'
+  NeoBundle 'kurkale6ka/vim-swap.git'
+  NeoBundle 'scrooloose/syntastic.git'
+  NeoBundle 'justinmk/vim-sneak.git'
+
+  NeoBundle 'ervandew/eclim'
+
+  NeoBundle 'blueyed/vim-colors-solarized.git'
 endif
 
 " Required:
@@ -74,7 +98,7 @@ let g:UltiSnipsEditSplit="vertical"
 let mapleader = ","
 " Not for imap!
 " Sets the mapleader in normal mode on <space>
-nmap <space> <leader> 
+nmap <space> <leader>
 " Sets the mapleader in visual mode on <space>
 vmap <space> <leader>
 
