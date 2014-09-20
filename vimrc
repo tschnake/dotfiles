@@ -48,11 +48,8 @@ else
   NeoBundle 'embear/vim-localvimrc'
   NeoBundle 'bling/vim-airline'
   
-
   NeoBundle 'git://git.code.sf.net/p/vim-latex/vim-latex'
-
 endif
-
 
 " Required:
 call neobundle#end()
