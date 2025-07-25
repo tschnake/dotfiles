@@ -23,8 +23,8 @@ zstyle ':vcs_info:*' stagedstr ' %F{green}✚%f'
 zstyle ':vcs_info:*' unstagedstr ' %F{red}●%f'
 
 precmd() {
-    vcs_info
-    print -P '%B%~%b ${vcs_info_msg_0_}'
+  vcs_info
+  print -P "%F{cyan}%n@%m%f:%F{yellow}%~%f ${vcs_info_msg_0_}"
 }
 
 PROMPT='%B%(!.#.$)%b '
